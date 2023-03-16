@@ -18,13 +18,13 @@ const Sum = () => {
 
     return (
         <div className='container'>
-            <p>Sum Calculator</p>
+            <h1>Sum Calculator</h1>
 
 
             <div className='inputbox'>
                 <input type={"number"} value={number} onChange={updatenumber} ></input>
             </div>
-            <p>sum:{addition} </p>
+            <p>Sum: {addition} </p>
         </div>
     )
 }
